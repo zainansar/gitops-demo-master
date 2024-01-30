@@ -18,3 +18,4 @@ jobs:
         echo "${{ secrets.DOCKERPW }}" | docker login -u "zain170881" --password-stdin
         docker image build -t zain170881/gitaction:latest .
         docker push zain170881/gitaction:latest
+ 
